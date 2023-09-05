@@ -5,7 +5,7 @@ interface StringFunc{
     String func(String func);
 }
 public class LambdaAsArgumentsDemo {
-    //This method has a functional interface as the type of
+    //Thi  method has a functional interface as the type of
     // its first parameter. Thus, can be passed a reference to
     // any instance of that interface, including the instance created
     // by a lambda expression
