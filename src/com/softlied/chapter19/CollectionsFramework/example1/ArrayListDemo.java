@@ -18,6 +18,7 @@ public class ArrayListDemo {
         a1.add("D");
         a1.add("F");
         a1.add(1, "A2");
+        System.out.println("a1: " + a1);
         System.out.println("Size of a1 after additions: " + a1.size());
 
         //Display the arraylist

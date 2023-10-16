@@ -6,6 +6,10 @@ import java.util.TreeSet;
 class MyComp implements Comparator<String> {
     @Override
     public int compare(String o1, String o2) {
+        System.out.println(o1);
+        System.out.println(o2);
+        System.out.println(o2.compareTo(o1));
+        System.out.println();
         //Reverse the comparison
         return o2.compareTo(o1);
     }

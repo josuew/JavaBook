@@ -1,5 +1,6 @@
 package com.softlied.chapter14.Generics.example12;
 
+
 //Overriding a generic method in a generic class
 class Gen<T>{
     T ob;

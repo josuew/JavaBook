@@ -18,10 +18,11 @@ class TComp implements Comparator<String>{
         System.out.println(o1);
         System.out.println(o2);
 
-        System.out.println();
-        System.out.println();
+        System.out.println(o1.substring(i));
+        System.out.println(o2.substring(i));
 
         k = o1.substring(i).compareToIgnoreCase(o2.substring(j));
+        System.out.println(k);
         if (k == 0) // last names match, check entire name
             return o1.compareToIgnoreCase(o2);
         else return k;

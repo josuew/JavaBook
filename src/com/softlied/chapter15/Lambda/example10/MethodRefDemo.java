@@ -1,10 +1,14 @@
 package com.softlied.chapter15.Lambda.example10;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //Demonstrate a method reference for a static method
 //a functional interface for String operations
 interface StringFunc{
     String func(String n);
 }
+
 
 //This class defines a static method called strReverse()
 class MyStringOps{
@@ -17,6 +21,7 @@ class MyStringOps{
             result += str.charAt(i);
         return result;
     }
+
 }
 
 public class MethodRefDemo {
@@ -36,5 +41,6 @@ public class MethodRefDemo {
 
         System.out.println("Original String: " + inStr);
         System.out.println("String reversed: " + outStr);
+
     }
 }
