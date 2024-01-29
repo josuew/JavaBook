@@ -2,8 +2,6 @@ package com.softlied.chapter15.Lambda.example2;
 
 //Demonstrate a lambda expression that takes a parameter
 
-import javax.sound.midi.MidiFileFormat;
-
 //Another functional interface
 interface NumericTest{
     boolean test(int n);

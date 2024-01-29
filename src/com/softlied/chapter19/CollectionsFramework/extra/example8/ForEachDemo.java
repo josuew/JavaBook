@@ -1,4 +1,4 @@
-package com.softlied.chapter19.CollectionsFramework.example8;
+package com.softlied.chapter19.CollectionsFramework.extra.example8;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.softlied.chapter19.CollectionsFramework.example7;
+package com.softlied.chapter19.CollectionsFramework.extra.example7;
 
 import java.util.ArrayList;
 import java.util.Iterator;

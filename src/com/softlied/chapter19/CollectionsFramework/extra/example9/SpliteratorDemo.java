@@ -1,4 +1,4 @@
-package com.softlied.chapter19.CollectionsFramework.example9;
+package com.softlied.chapter19.CollectionsFramework.extra.example9;
 
 import java.util.ArrayList;
 import java.util.Spliterator;

@@ -1,4 +1,4 @@
-package com.softlied.chapter19.CollectionsFramework.example10;
+package com.softlied.chapter19.CollectionsFramework.extra.example10;
 
 import java.util.LinkedList;
 

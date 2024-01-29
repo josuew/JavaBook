@@ -1,5 +1,6 @@
 package com.softlied.chapter19.CollectionsFramework.example3;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListDemo {
@@ -34,5 +35,7 @@ public class LinkedListDemo {
         String val = ll.get(0);
         ll.set(2, val);
         System.out.println("ll after change: " + ll);
+
+
     }
 }

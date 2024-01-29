@@ -1,4 +1,4 @@
-package com.softlied.chapter19.CollectionsFramework.example11;
+package com.softlied.chapter19.CollectionsFramework.extra.example11;
 
 import java.util.HashMap;
 import java.util.Map;

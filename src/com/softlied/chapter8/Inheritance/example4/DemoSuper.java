@@ -68,6 +68,7 @@ class BoxWeight extends Box {
 
 public class DemoSuper {
     public static void main(String[] args) {
+
         BoxWeight mybox1 = new BoxWeight(10,20,15,34.3);
         BoxWeight mybox2 = new BoxWeight(2,3,4,0.076);
         BoxWeight mybox3 = new BoxWeight();

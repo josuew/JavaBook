@@ -1,4 +1,4 @@
-package com.softlied.chapter19.CollectionsFramework.example12;
+package com.softlied.chapter19.CollectionsFramework.extra.example12;
 
 import java.util.Map;
 import java.util.Set;
