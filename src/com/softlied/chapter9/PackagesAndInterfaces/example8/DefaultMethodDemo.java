@@ -22,6 +22,7 @@ class MyIFImpl implements MyIF{
 
 public class DefaultMethodDemo {
     public static void main(String[] args) {
+
         MyIFImpl obj = new MyIFImpl();
         //Can call getNumber(), because it is explicitly
         //implemented by MyIFimpl

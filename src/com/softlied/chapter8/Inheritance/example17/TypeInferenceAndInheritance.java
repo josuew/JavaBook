@@ -4,7 +4,6 @@ package com.softlied.chapter8.Inheritance.example17;
 //type of the initializer, which may not be the most derived type of
 //the object being referred to by the initializer
 class MyClass{
-
 }
 
 class FirstDerivedClass extends MyClass{

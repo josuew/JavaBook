@@ -22,6 +22,7 @@ class B extends A{
 
     void sum(){
 //        total = i + j; ERROR, j is not accessible here
+
     }
 }
 public class Access {
