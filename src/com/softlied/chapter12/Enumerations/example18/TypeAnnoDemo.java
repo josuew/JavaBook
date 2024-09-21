@@ -62,6 +62,9 @@ public class TypeAnnoDemo<@What(description = "Generic Data Type") T> {
         return j+k;
     }
 
+    // Return type annotation not work in void
+//    public @TypeAnno void f2_void(int j, int k){}
+
     // Annotate the method declaration
     public @Recommended Integer f3(String str){
         return str.length() / 2;
