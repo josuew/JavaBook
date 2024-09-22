@@ -40,7 +40,7 @@ public class ShowFile {
         }catch(FileNotFoundException e){
             System.out.println("Cannot Open File");
         } catch (IOException e){
-            System.out.println("An I/O error occured");
+            System.out.println("An I/O error occurred");
         } finally {
             //Close the file in all cases
             try {
