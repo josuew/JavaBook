@@ -11,16 +11,6 @@ class CallMe{
         }
         System.out.println("]");
     }
-
-    void call2(String msg){
-        System.out.print("["+msg);
-        try {
-            Thread.sleep(1000);
-        }catch (InterruptedException ex){
-            System.out.println("Interrupted");
-        }
-        System.out.println("]");
-    }
 }
 
 class Caller implements Runnable{
