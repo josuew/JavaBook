@@ -1,5 +1,7 @@
 package com.softlied.chapter11.MultiThreading.example11;
 
+import java.sql.SQLOutput;
+
 //Suspending and resuming a thread the modern way
 class NewThread implements Runnable {
     String name; // name of thread
@@ -30,7 +32,6 @@ class NewThread implements Runnable {
         }catch (InterruptedException e) {
             System.out.println(name + " interrupted");
         }
-
         System.out.println(name + " exiting");
     }
 
