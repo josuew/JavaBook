@@ -31,7 +31,16 @@ class Address{
 
 public class MailList {
     public static void main(String[] args) {
-        LinkedList<Address> addresses = new LinkedList<Address>();
+        LinkedList<Address> ml = new LinkedList<>();
 
+        //Add elements to the linked list
+        ml.add(new Address("J.W. West", "ll Oak Ave", "Urbana", "IL", "61801"));
+        ml.add(new Address("Ralph Baker", "1142 Maple Lane", "Mahomet", "IL", "61853"));
+        ml.add(new Address("Tom Carlton","867 Elm St", "Champaing","IL","61820"));
+
+        //Display the mail list
+        for (Address element : ml) {
+            System.out.println(element);
+        }
     }
 }
