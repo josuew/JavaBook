@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class StreamDemo {
     public static void main(String[] args) {
         //Create a list of Integer values
-        ArrayList<Integer> myList = new ArrayList<Integer>();
+        ArrayList<Integer> myList = new ArrayList<>();
         myList.add(7);
         myList.add(18);
         myList.add(10);
