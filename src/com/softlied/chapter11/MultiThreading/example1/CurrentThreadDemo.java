@@ -8,7 +8,7 @@ public class CurrentThreadDemo {
 
         //change the name of the thread
         t.setName("My Thread");
-        System.out.println("After name change: " + t.getName());
+        System.out.println("After name change: " + t);
 
         try{
             for (int n = 5; n > 0; n--){

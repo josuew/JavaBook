@@ -1,5 +1,6 @@
 package com.softlied.chapter11.MultiThreading.example2;
 
+// create a second thread
 class NewThread implements Runnable{
     Thread t;
 

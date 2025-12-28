@@ -1,5 +1,6 @@
 package com.softlied.chapter11.MultiThreading.example9;
 
+// A correct implementation of a producer and consumer
 class Q{
     int n;
     boolean valueSet = false;

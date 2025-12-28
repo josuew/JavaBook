@@ -1,5 +1,6 @@
 package com.softlied.chapter11.MultiThreading.example8;
 
+// An incorrect implementation of a producer and consumer
 class Q{
     int n;
 

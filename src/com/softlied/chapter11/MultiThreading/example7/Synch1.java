@@ -2,7 +2,7 @@ package com.softlied.chapter11.MultiThreading.example7;
 
 //This program uses a synchronized block
 class CallMe{
-    void call(String msg){
+     void call(String msg){
         System.out.print("["+msg);
         try {
             Thread.sleep(1000);
