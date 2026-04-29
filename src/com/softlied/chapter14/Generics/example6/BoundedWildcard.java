@@ -1,6 +1,6 @@
 package com.softlied.chapter14.Generics.example6;
 
-// Two dimensional coordinates
+// Two-dimensional coordinates
 class TwoD{
     int x,y;
 
@@ -10,7 +10,7 @@ class TwoD{
     }
 }
 
-//Three dimensional coordinates
+//Three-dimensional coordinates
 class ThreeD extends TwoD{
     int z;
 
